@@ -1,9 +1,5 @@
 
-from Thermostat_Adjuster_2 import adjust_thermostat
+from Credit_Card_Masker import mask
 
 
-print(adjust_thermostat(32, 0))
-print(adjust_thermostat(70, 25))
-print(adjust_thermostat(72, 18))
-print(adjust_thermostat(212, 100))
-print(adjust_thermostat(59, 22))
+print(mask("4012-8888-8888-1881"))
