@@ -1,5 +1,6 @@
 
 from Credit_Card_Masker import mask
+from Binary_to_Decimal import to_decimal
 
 
-print(mask("4012-8888-8888-1881"))
+print(to_decimal("101"))
