@@ -1,0 +1,11 @@
+list_p = ["A", "B", "C", "D", "E", "F"]
+print(list_p)
+list_p.insert(1, "F")
+print(list_p)
+list_p.remove("F")
+print(list_p)
+list_p.append("F")
+print(list_p)
+print(len(list_p))
+print(list_p.count("F"))
+print(list_p.index("F"))
