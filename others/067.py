@@ -7,6 +7,5 @@ for i in list1:
     if i in list2:
         print(i, end=" ")
 
-intersection = list(set(list1)&set(list2))
-
-print(intersection)
+# intersection = list(set(list1)&set(list2))
+# print(intersection)
