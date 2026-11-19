@@ -1,22 +1,16 @@
 // Create an empty list of type string called days. Use the add method to add names of 7 days and print all days.
 
 
-import 'dart:io';
+void main(){
+  List<String> days = [];
 
-void main() {
-  double total = 0.0;
+  days.add("Saturday");
+  days.add(("Sunday"));
+  days.add("Monday");
+  days.add("Tuesday");
+  days.add("Wednesday");
+  days.add("Thursday");
+  days.add("Friday");
 
-  List<double> expenses = [];
-
-  print("Enter expenses separated by spaces:");
-
-  expenses.addAll(
-    stdin.readLineSync()!
-        .split(" ")
-        .map((e) => double.parse(e))
-  );
-
-  expenses.forEach((expense) => total += expense);
-
-  print("Total Expense: $total");
+  print(days);
 }
